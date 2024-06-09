@@ -1,0 +1,426 @@
+CRITICAL - 2024-06-08 17:53:26 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: personas]
+in SYSTEMPATH\BaseModel.php on line 1833.
+ 1 SYSTEMPATH\BaseModel.php(1833): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray(null, 'insert')
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert(null, true)
+ 4 APPPATH\Controllers\DatosPersona.php(31): CodeIgniter\Model->insert(null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 17:54:10 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: personas]
+in SYSTEMPATH\BaseModel.php on line 1833.
+ 1 SYSTEMPATH\BaseModel.php(1833): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray(null, 'insert')
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert(null, true)
+ 4 APPPATH\Controllers\DatosPersona.php(31): CodeIgniter\Model->insert(null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 17:54:52 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: personas]
+in SYSTEMPATH\BaseModel.php on line 1833.
+ 1 SYSTEMPATH\BaseModel.php(1833): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(806): CodeIgniter\BaseModel->transformDataToArray(null, 'insert')
+ 3 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert(null, true)
+ 4 APPPATH\Controllers\DatosPersona.php(31): CodeIgniter\Model->insert(null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 17:55:37 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: personas]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\DatosPersona.php(30): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 17:55:56 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: personas]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\DatosPersona.php(30): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 17:56:02 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: personas]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\DatosPersona.php(30): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 17:56:02 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: personas]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\DatosPersona.php(30): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 17:56:11 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: personas]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\DatosPersona.php(31): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 17:56:27 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: personas]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\DatosPersona.php(30): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:01:40 --> Error: Class "App\Controllers\DatosAcademicosModel" not found
+[Method: GET, Route: personas/1]
+in APPPATH\Controllers\DatosPersona.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:03:14 --> Error: Class "App\Controllers\DatosAcademicosModel" not found
+[Method: GET, Route: personas/1]
+in APPPATH\Controllers\DatosPersona.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:03:15 --> Error: Class "App\Controllers\DatosAcademicosModel" not found
+[Method: GET, Route: personas/1]
+in APPPATH\Controllers\DatosPersona.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:03:15 --> Error: Class "App\Controllers\DatosAcademicosModel" not found
+[Method: GET, Route: personas/1]
+in APPPATH\Controllers\DatosPersona.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:03:16 --> Error: Class "App\Controllers\DatosAcademicosModel" not found
+[Method: GET, Route: personas/1]
+in APPPATH\Controllers\DatosPersona.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:03:16 --> Error: Class "App\Controllers\DatosAcademicosModel" not found
+[Method: GET, Route: personas/1]
+in APPPATH\Controllers\DatosPersona.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:03:36 --> Error: Class "App\Controllers\DatosAcademicosModel" not found
+[Method: GET, Route: personas/1]
+in APPPATH\Controllers\DatosPersona.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:03:43 --> Error: Class "App\Controllers\DatosAcademicosModel" not found
+[Method: GET, Route: personas/1]
+in APPPATH\Controllers\DatosPersona.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->show('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-08 19:14:04 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`)) in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `da...', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `da...')
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `da...')
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `da...', Array, false)
+#4 C:\xampp\htdocs\api\system\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\api\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\api\app\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1')
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+#9 C:\xampp\htdocs\api\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\api\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\api\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\api\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-08 19:14:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`))
+[Method: DELETE, Route: personas/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `datos_persona`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:14:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `datos_persona`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:14:04 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `datos_persona`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-08 19:14:33 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`)) in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `da...', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `da...')
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `da...')
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `da...', Array, false)
+#4 C:\xampp\htdocs\api\system\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\api\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\api\app\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1', 'academicos')
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+#9 C:\xampp\htdocs\api\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\api\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\api\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\api\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-08 19:14:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`))
+[Method: DELETE, Route: personas/1/academicos]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `datos_persona`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1', 'academicos')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:14:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `datos_persona`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1', 'academicos')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:14:33 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `datos_persona`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1', 'academicos')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-08 19:14:35 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`)) in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `da...', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `da...')
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `da...')
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `da...', Array, false)
+#4 C:\xampp\htdocs\api\system\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\api\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\api\app\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1', 'academicos')
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+#9 C:\xampp\htdocs\api\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\api\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\api\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\api\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-08 19:14:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`))
+[Method: DELETE, Route: personas/1/academicos]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `datos_persona`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1', 'academicos')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:14:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `datos_persona`
+WHERE `id` IN :id:', [...], false)
+ 4 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1', 'academicos')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:14:35 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`prueba`.`datos_academicos`, CONSTRAINT `fk_datos_academicos_persona_id` FOREIGN KEY (`persona_id`) REFERENCES `datos_persona` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `datos_persona`
+WHERE `id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `datos_persona`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\DatosPersona.php(66): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatosPersona->delete('1', 'academicos')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosPersona))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:39:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "añadir"
+[Method: POST, Route: personas/a%C3%B1adir]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('personas/añadir')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('personas/añadir')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:39:41 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "añadir"
+[Method: POST, Route: personas/a%C3%B1adir]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('personas/añadir')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('personas/añadir')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:40:11 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "añadir"
+[Method: POST, Route: personas/a%C3%B1adir]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('personas/añadir')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('personas/añadir')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:40:12 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "añadir"
+[Method: POST, Route: personas/a%C3%B1adir]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('personas/añadir')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('personas/añadir')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:40:12 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "añadir"
+[Method: POST, Route: personas/a%C3%B1adir]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('personas/añadir')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('personas/añadir')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
